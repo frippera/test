@@ -1,16 +1,13 @@
+<!doctype html>
 <html>
-<head>
-<title></title>
-<script>
-function disp()
-{
-str1 = location.host();
-alert(str1);
-}
-</script>
-</head>
-
-<body onload="disp();">
-
-</body>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<script>
+			var strhost = location.hostname;
+			document.title = strhost;
+			document.write(strhost);
+		</script>
+	</body>
 </html>
